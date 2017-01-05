@@ -1,6 +1,6 @@
 ## Introduction
 - my-autopost是一个Wordpress插件，功能强大，支持自定义网站内容的抓取
-- my-autopost是wp-autopost的简化开源版本，本人是在一份网上广为流传的wp-autopost早期破解版本基础上改良的，改良工作主要包括：
+- my-autopost是wp-autopost的简化开源版本，本人是基于一份网上广为流传的wp-autopost早期破解版本改良的，改良工作主要包括：
   - **突破限制，正常运行：** 网上破解版本并不能正常运行，并且有诸多限制（如只能开启一个任务，会在抓取的文章内容里面加上广告内容等等），my-autopost修复了这些问题，直接就能运行，并且没有任何功能限制
   - **PHP代码与HTML代码分离：** 网上破解版本PHP代码和HTML代码杂糅严重，非常不利用调试和维护，my-autopost分离了PHP逻辑代码和HTML显示代码，将HTML代码单独拆分出来，放在views目录下，方便后续维护
   - **使用Wordpress原生的表格类：** 网上破解版本使用自定义代码来实现表格显示与表格筛选等功能，my-autopost将这些自定义代码全部替换为使用Wordpress原生表格类功能实现，保持代码一致性
