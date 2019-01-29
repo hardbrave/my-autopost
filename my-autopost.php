@@ -125,7 +125,7 @@ function my_autopost_initialize() {
 
 		dbDelta($sql);
 	}
-
+	
 	if(($wpdb->get_var("SHOW TABLES LIKE '$t_map_log'") != $t_map_log)){
 		$sql = "CREATE TABLE " . $t_map_log . " (
 					id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
